@@ -1,0 +1,315 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    color: #eeeeee;
+    text-align: left-center;
+}
+
+.nav-bar {
+    z-index: 11;
+}
+
+
+.title_container {
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-size: 76px;
+
+}
+
+@media(max-width:991px) {
+
+    .title_container,
+    .title_container h4,
+    .title_container input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+
+    .main {
+        position: relative;
+        z-index: 10;
+    }
+
+    .main::after {
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+    }
+}
+
+.logo {
+    float: left;
+    padding-right: 30px;
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 10%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.main {
+    width: 100%;
+    height: calc(100%-60px);
+    min-height: 1020px;
+    font-size: 30px;
+    background: url(../img/Парень.png) 90% 100%/auto 85% no-repeat, url(../img/фон.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    padding-top: 400px;
+    padding-left: 600px;
+    color: #2c384a;
+    font-size: 40px;
+    font-family: Bahnschrift;
+}
+
+h4 {
+    padding-top: 25px;
+    padding-left: 70px;
+    color: #8a919c;
+    font-style: Franklin Gothic Medium, san-serif;
+    font-size: 20px;
+
+}
+
+.about_me {
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: #ebebef;
+    border-style: solid;
+    border-color: #79818d;
+    border-radius: 10px;
+    border-width: 4px;
+
+}
+
+.my_works {
+    text-align: left;
+    width: fit-content;
+    font-style: italic;
+    font-size: 30px;
+    background-color: #ebebef;
+    border-style: solid;
+    border-color: #79818d;
+    border-radius: 10px;
+    border-width: 4px;
+
+}
+
+.main_info>p {
+    font-size: 20px;
+}
+
+.some_text {
+    font-family: Calibri sans-serif;
+    font-size: 20px;
+    color: #3f495a;
+    text-align: justify;
+
+}
+
+.download_resume {
+    display: block;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 30px;
+    background-color: #ebebef;
+    border-style: solid;
+    border-color: #79818d;
+    position: relative;
+    border-radius: 10px;
+    border-width: 4px;
+    margin: 0px auto;
+    margin-top: 60px;
+    overflow: auto;
+    border-radius: 100px;
+
+}
+
+.wrapper {
+    background-image: url(../img/картинка\ фона.png);
+    background-attachment: fixed;
+    margin: 0px auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+
+.what_i_can_do {
+    
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+.entry {
+    padding: 50px;
+
+    width: 25%;
+
+    float: left;
+    font-style: italic;
+    height: 198px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+
+.special_design {
+    font-size: 25px;
+}
+
+
+.cases {
+    width: 100%;
+    height: 1820px;
+    position: relative;
+    background-color: #fafbfb;
+}
+
+.cases_text {
+    font-style: Calibri #3f495a;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.client_web_site img {
+    display: block;
+    margin: 0% auto;
+    position: relative;
+}
+
+.project_info {
+    display: block;
+    position: relative;
+    font-size: 40px;
+    float: left;
+    width: 100%;
+    margin: 0% auto;
+    padding-left: 450px;
+
+
+}
+
+.project_info button {
+    background-color: #344051;
+    border: 3px #2c384a solid;
+    font-size: 20px;
+    padding: 20px 20px;
+    float: left;
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 20%;
+
+}
+
+.client_comp {
+    float: inline-start;
+   padding-top: 20px;
+    padding: 0px auto;
+    width: 10%;
+    height: 100px;
+}
+
+.web {
+    font-size: 20px;
+   
+
+}
+
+.web_text {
+    font-size: 40px;
+    width: 80%;
+
+}
+
+
+.project_pricing {
+    position: relative;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    display: block;
+    width: 95%;
+    height: 35%;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project_pricing form {
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    margin: 50px auto;
+    margin-top: 150px;
+    padding: 50px auto;
+    width: 80%;
+    height: 500px;
+}
+
+.project_pricing select {
+    background-color: #eeeeee;
+    text-align: left;
+    width: 80%;
+    height: 8%;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: #2c384a solid 2px;
+}
+
+.some_statistics {
+    background: url(../img/Фон2.png) center/cover no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-top: 100px;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    font-size: 40px bold;
+    float: left;
+
+}
+
+.feedbacks {
+    width: 100%;
+    height: 1000px;
+    max-height: fit-content;
+    display: block;
+    position: relative;
+    text-align: center;
+   top: 30px;
+}
+.leave_me_message{
+    min-height: 500px;
+    background: url(../img/фон3.jpg) center/cover no-repeat;;
+}
